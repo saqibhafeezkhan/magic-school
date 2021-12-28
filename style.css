@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 0;
+}
+.navbar-nav li
+{
+    padding:0 10px;
+}
+.navbar-nav li a
+{
+    float:right;
+    text-align:left;
+}
+#nav-bar ul li a:hover
+{
+    color: black; 
+}
+.navbar
+{
+    background:#a9a9a9;
+}
+.navbar-toggler
+{
+    border:none;
+}
+.nav-link
+{
+    color:#a9a9a9;
+    font-weight: 600;
+    font-size:16px; 
+}
+.carousel-caption h5
+{
+    color:bisque;
+    font-size:25px;
+}
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:dimgray;
+}
+#about btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding: 20px;
+}
+.skills-bar p
+{
+     margin-bottom: 6px;
+     font-weight:600px;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+#faculty
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1
+{
+    text-align:center;
+    color:#555;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content:'';
+    background:#007bff;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+h1:hover
+{
+    color:deepskyblue;
+}
+#faculty .row
+{
+    margin-top: 30px;
+}
+.col-md-3
+{
+    margin:40px auto;
+}
+.profile
+{
+    padding:70px 10px 10px;
+    background-color: #efefef;
+}
+.user
+{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+.profile img
+{
+    top:-60px;
+    position:absolute;
+    left:calc(50% - 60px);
+    border:10px solid #fff;
+    
+}
+.profile h3
+{
+    font-size:20px;
+    margin-top: 15px;
+    color:#007bff;
+}
+#faculty span
+{
+    font-size: 12px;
+    color:#333;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before
+{ 
+    font-size: 50px;
+    color:#007bff;
+    position:relative;
+    line-height: 20px;
+    bottom:-15px;
+    right:5px;
+}
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition: 0.5s;
+}
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0;
+    border:none;
+}
+::placeholder
+{
+    color:#999;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin:15px;
+}
+.contact-info .fa
+{
+    margin:10px;
+    font-weight: bold;
+}
+
+.btn-submit{
+	margin-top: 5px;
+}
+h2
+{
+ font-size: 25px;
+}
+h2:hover
+{
+    font-size:40px;
+    transition:all 0.5s ease;
+}
+
+.saq img:hover
+{
+   height:400px; 
+   transition:.7s ease;
+}

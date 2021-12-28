@@ -1,0 +1,80 @@
+*{
+ margin: 0px;
+    padding: 0px;
+    color:white;
+}
+body
+{
+    background-image: url(admission1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:sans-serif;
+}
+h3
+{
+    font-size: 40px;
+    color:white;
+}
+col-md-11
+{
+    margin-top: 80px;
+    box-shadow:-1px 1px 60px 10px blue;
+    background:rgba(0,0,0,1.4);
+}
+.label
+{
+    font-weight: normal;
+    margin-top: 15px;
+    color:white;
+    font-size:23px;
+}
+
+
+.form-control
+{
+    background:transparent;
+    border-radius:0 px;
+    border:0px;
+    border-bottom: 1px solid white;
+    font-size:18 px;
+    margin-top:15 px;
+    height:40 px;
+    color:white;
+}
+input[type]="checkbox"
+{
+    margin-top: 18px;
+    width:15px;
+    height:15px;
+}
+small
+{
+    
+    font-size: 18px;
+    color:white;
+}
+input[type]="radio"
+{
+    margin-top: 22px;
+}
+option
+{
+    color:grey;
+}
+.btn-info
+{
+    margin-top:20px;
+    font-size:18px;
+    width:120px;
+    margin-left:80px;
+    margin-bottom: 20px;
+}
+.btn-warning
+{
+    margin-top:20px;
+    font-size:18px;
+    width:120px;
+    margin-left:80px;
+    margin-bottom: 20px;
+    
+}

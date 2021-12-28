@@ -1,0 +1,78 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background: url(woods.jpg);
+    background-repeat:repeat-y;
+    background-size: contain;
+}
+.container
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-content: center;
+}
+.card
+{
+    margin-top:90px;
+    margin-left:330px;
+    width:450px;
+    height:450px;
+    position:absolute;
+    perspective: 1000px;
+}
+.left-side
+{
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(23176263-wooden-door-decoration-pattern-flower-cross.jpg);
+    background-size:contain;
+    width:50%;
+    height:100%;
+    transform:rotateY(0deg);
+    transform-origin: left;
+    transition:transform 2s;
+    
+}
+.right-side
+{
+    position:absolute;
+    top:0;
+    right:0;
+    background: url(23176263-wooden-door-decoration-pattern-flower-cross.jpg);
+    background-size:contain;
+    width:50%;
+    height:100%;
+    transform:rotateY(0deg);
+    transform-origin: right;
+    transition:transform 2s;
+}
+.back-side
+{
+   position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-size:contain no-repeat;
+    z-index: -1;
+    transition: z-index 0.4s step-end, transform 1s;
+}
+.card:hover .left-side
+{
+    transform:rotateY(-360deg); 
+}
+.card:hover .right-side
+{
+    transform:rotateY(360deg); 
+}
+.card:hover .back-side
+{
+    transform:translateZ(0px);
+    z-index: 1;
+}

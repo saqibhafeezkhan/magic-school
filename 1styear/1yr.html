@@ -1,0 +1,109 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login Form</title>
+    <script>
+function S() 
+{
+        window.alert("Your Data has been submitted");
+        history.go(-1);
+}
+</script>
+    </head>
+    <body>
+
+    <div class="container">
+        <form name="RegForm" onsubmit="S()">
+        <div class="row">
+        <div class="col-md-1">
+            </div>
+            <div class="col-md-11">
+                <div class="col-md-8">
+                <h3 class="text-left">Hogwards Registration Form</h3>
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control-label">First Name</label>
+                <div class="col-md-10">
+                <input type="First Name" class="form-control" name="First_Name" placeholder="First Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control-label">Middle Name</label>
+                <div class="col-md-10">
+                <input type="Middle Name" class="form-control" name="Middle_Name" placeholder="Middle Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control-label">Last Name</label>
+                <div class="col-md-10">
+                <input type="Last Name" class="form-control" name="Last_Name" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control label">Age</label>
+                    <div class="col-md-10">
+                    <select class="form-control" name="Age">
+                        <option value="11" selected>11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        </select>
+                    </div>
+                </div>
+                    <div class="row">
+                <label class="label col-md-2 control-label">Address</label>
+                <div class="col-md-10">
+                <input type="Address" class="form-control" name="Address" placeholder="Address" required>
+                    </div>
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control label">Gender</label>
+                    <div class="col-md-10">
+                    <input type="radio" name="Gender" value="M" checked><small>Male</small>
+                        <input type="radio" name="Gender" value="F"><small>Female</small>
+                    <input type="radio" name="Gender" value="O"><small>Other</small>
+                    </div>
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control label">House</label>
+                    <div class="col-md-10">
+                    <select class="form-control" name="House">
+                        <option value="G">Godric Gryffindor</option>
+                        <option value="S">Salazar Slytherin</option>
+                        <option value="H">Helga Hufflepuff</option>
+                        <option value="R">Rovena Ravenclaw</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                <label class="label col-md-2 control-label">User ID</label>
+                <div class="col-md-10">
+                <input type="User ID" class="form-control" name="Userid" placeholder="Enter Unique User ID" required>
+                    </div>
+                </div>
+                    <div class="row">
+                <label class="label col-md-2 control-label">Password</label>
+                <div class="col-md-10">
+                <input type="Password" class="form-control" name="Password" placeholder="Choose A Password" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                    <input type="checkbox" checked> 
+                        </div>
+                    <div class="col-md-11">
+                    <small> I am well aware of all the rules and regulations of the School.If I broke any rule then School has full authority to disqualify me.</small>
+                        </div>
+                </div>
+                <button type="Submit" class=" btn btn-info" value="send" name="Submit">Submit</button>
+                <button type="Reset" class=" btn btn-warning" value="reset" name="Reset">Reset</button> 
+                <hr>
+            </div>
+        </div>
+        </form>
+        </div>
+    </body>
+</html>
