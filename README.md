@@ -1,7 +1,9 @@
 
 Magic School
 
-This project is just a demo of Hogwarts School based on Harry Potter Novel.
+This is a hobby project based on novel Harry Potter.
+
+Note: This website is not mobile friendly.
 
 
 ## Demo
